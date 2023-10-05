@@ -1,0 +1,42 @@
+.start-streaming-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 280px;
+  padding-top: 8px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  margin: 10px 0;
+  padding: 0px 12px;
+  color: #353535;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.expression-color-tile {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.no-face-detected-msg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}

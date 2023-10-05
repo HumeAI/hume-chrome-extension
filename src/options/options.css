@@ -1,0 +1,28 @@
+body {
+  background-color: #fff4e8;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 72vh;
+}
+
+.options-content {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.options-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}

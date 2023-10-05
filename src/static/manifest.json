@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Hume Extension",
+  "description": "Chrome extension for Hume AI Developer Platform",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Hume Extension",
+    "default_icon": "icon.png"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "permissions": ["activeTab", "storage"]
+}

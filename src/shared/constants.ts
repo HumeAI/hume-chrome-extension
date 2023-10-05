@@ -1,0 +1,103 @@
+export const ACTIONS = {
+  CONNECT: 'connect',
+  DISCONNECT: 'disconnect',
+  TOP_FIVE_UPDATED: 'topFiveExpressionsUpdated',
+  UPDATE_TOP_FIVE: 'updateTopFive',
+  STREAMING_STATE_UPDATED: 'streamingStateUpdated',
+  UPDATE_STREAMING_STATE: 'updateStreamingState',
+};
+
+export const ERRORS = {
+  NO_VIDEO_FOUND: 'no video element found.',
+  STREAMING_IN_PROGRESS: 'streaming already in progress',
+};
+
+export const COLORS = {
+  Admiration: '#FFC58F',
+  Adoration: '#EF75FF',
+  'Aesthetic Appreciation': '#E2CBFF',
+  Amusement: '#FEBF52',
+  Anger: '#B21816',
+  Anxiety: '#6E42CC',
+  Awe: '#0088FF',
+  Awkwardness: '#D7D99D',
+  Boredom: '#634D36',
+  Calmness: '#4D90F1',
+  Concentration: '#336CFF',
+  Confusion: '#FC7919',
+  Contemplation: '#B0AEEF',
+  Contempt: '#76842D',
+  Contentment: '#E5C6B4',
+  Craving: '#54591C',
+  Desire: '#AA0D59',
+  Determination: '#FF5C00',
+  Disappointment: '#006C7C',
+  Disgust: '#1A7A41',
+  Distress: '#C5F264',
+  Doubt: '#998644',
+  Ecstasy: '#FF48A4',
+  Embarrassment: '#FC8DAC',
+  'Empathic Pain': '#CA5555',
+  Entrancement: '#7554D6',
+  Envy: '#1D4921',
+  Excitement: '#FFF974',
+  Fear: '#8038EC',
+  Guilt: '#879AA1',
+  Horror: '#772E7A',
+  Interest: '#2ED5C8',
+  Joy: '#FFD600',
+  Love: '#F44F4C',
+  Nostalgia: '#B087A1',
+  Pain: '#8C1D1D',
+  Pride: '#9A4CB6',
+  Realization: '#217AA8',
+  Relief: '#FE927A',
+  Romance: '#F0CC86',
+  Sadness: '#305575',
+  Satisfaction: '#A6DDAF',
+  Shame: '#8A6262',
+  'Surprise (negative)': '#70E63A',
+  'Surprise (positive)': '#7AFFFF',
+  Sympathy: '#7F88E0',
+  Tiredness: '#000000',
+  Triumph: '#EC8132',
+};
+
+// Custom styles for Material UI components
+export const STYLES = {
+  cardStyles: {
+    backgroundColor: '#FFF4E8',
+  },
+  cardContentStyles: {
+    height: '332px',
+    padding: '20px',
+  },
+  customCTABtnStyles: {
+    width: '140px',
+    color: '#FFF4E8',
+    backgroundColor: '#353535',
+    textTransform: 'none',
+    borderRadius: '20px',
+    borderColor: '#353535',
+    '&:hover': {
+      color: '#353535',
+      backgroundColor: '#FFF4E8',
+      borderColor: '#353535',
+    },
+  },
+  stopStreamBtnStyles: {
+    color: '#353535',
+    paddingRight: '8px',
+  },
+  customeSubmitBtnStyles: {
+    color: '#ffffff',
+    backgroundColor: '#353535',
+    textTransform: 'none',
+    borderRadius: '4px',
+    borderColor: '#353535',
+    '&:hover': {
+      color: '#353535',
+      borderColor: '#353535',
+    },
+  },
+};
